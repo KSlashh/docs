@@ -11,7 +11,8 @@ BSC | <ul><li> 0xa3c419D2b37105A4ebE4f42698d220E59295a190</li><li>0x446f136f8119
 OK | <ul><li> 0x0da171a973608cad5bb78585b2ae5373fad2c483</li><li>0xffca5f560be8ebabfe19cd8a6150f8978eb560df</li></ul>
 NEO | <ul><li>ALjgBt3QdfoENa11e9yToy3bn16b685EZS</li></ul>
 ONT | <ul><li>AM5F45WQyVSCYVpVbu8RK6cZZgk1GdDg2Q</li></ul>   
-Polygon | <ul><li>0xE5998e2879acCc23B1f0cF47D3D698496DAf45Fa</li> <li>0xD71BFfa8202E14eb4D4a86332FDf986754D0F574</li> <li>0x834B234D183F981170DB215Fab3234F52DDe7d44</li><li>0x1c08c04673DbAEE173AA6eF0dB67000be1d9F128</li></ul>
+Polygon | <ul><li>0x5e46b85ad7c337068ad17efc82b4d9ff74ccd502</li> <li>0x2b813b392ea7e3c75eb66cd94d525b478e66a5d9</li> <li>0x038db24d7a9b9fb00a09e0fb87cfaf6693d68477</li></ul>
+Arbitrum | <ul><li> 0xdb7e0850cd3c59313dee903a6c7a862499621bef</li><li>0x3ce0372afcd3e44ccbf1378a68bcd83cafd25530</li></ul>
 
 
 
@@ -118,6 +119,8 @@ PKR | 0x001a8ffcb0f03e99141652ebcdecdb0384e3bd6c | PRK
 SBC | 0xba5841109ec38e58b6184c0ab65ba59a9355ffe2 | SBC
 CFB| 0x5549fE6ED280e5A271A4c8c85277a5F07ec9bbDB| CFB
 EPK | 0xdaf88906ac1de12ba2b1d2f7bfc94e9638ac40c4 | EPK
+ISM| 0x5126efa050f6d3166110039c5ca48cc57b8e6ba2 | ISM
+eCell | 0x9b62ec1453cea5dde760aaf662048ca6eeb66e7f | eCell
 
 ## Ethereum: nrenBTC/nsBTC/nTUSD/nUSDC/nwBTC/nwETH/nDAI
 Type | Contract Hash | Desc
@@ -272,6 +275,8 @@ CFB | 0xf36538cBE8a85E418BBA643E8259de38DD02de43 | CFB
 EPK | 0x87ecea8512516ced5db9375c63c23a0846c73a57 | EPK
 DOG | 0x8dc27752faff2ade6efba8054e2f207506247f43 | DOG
 C | 0x1f09c5fa5522036c7cc7cddea46e9961ca01ead2 | C
+WIT| 0x633a87ca89ce86ed06a807e4af57ffe486980374| WIT
+YNI | 0x91cb98f1b1954253f03f82579d683732bae6813f | YNI
 
 ## Huobi Eco Chain(HECO)
 Type | Contract Hash | Desc
@@ -298,7 +303,6 @@ SWTH | 0x14127C943752d265B21D6963F8576A05c5c8e59c | SWTH asset in Heco
 COOK | 0x74189862B069e2Be5f7c8E6ff08eA8E1B1948519 | COOK asset in Heco
 FEI | 0x485cdBFF08A4F91a16689E73893a11ae8B76af6D | FEI asset in Heco
 TRIBE | 0x38999Fa3a7320bD2c3609BF0f8cB5CD4C11D3Fe1 | TRIBE asset in Heco
-YNI | 0xec05464c12618e9ffddff9e730ae812d8ed181d7 | YNI asset in Heco
 MDX | 0x25d2e80cb6b86881fd7e07dd263fb79f4abe033c | MDX asset in Heco
 CVT | 0xD27547A4e3bA5FBc8ac6C2477151aB8E17e4D341 | CVT asset in Heco
 hFLUX | 0xd10852DF03Ea8b8Af0CC0B09cAc3f7dbB15e0433 | hFLUX asset in Heco
@@ -336,6 +340,9 @@ EPK | 0x2e969f4826466e3ef52eae153f6368d17ec5d8f4 | EPK
 DOG | 0x099626783842d35c221e5d01694c2b928eb3b0ad | DOG
 C | 0xfed613cdd4182b73a032fe1f03bd7872465010f8 | C
 CBC | 0x14e449473251F2D9D4eA5D26199F002C214b2475 | CBC
+WIT | 0xabf5f4f5856dac0f7d7df56be92ac04f4d0fc0f0 | WIT
+eCell | 0xcf5fac84e13622ef1fc538c2f83c710abc816f92 | eCell
+
 
 ## Curve
 Type | Contract Hash | Desc
@@ -344,6 +351,7 @@ CCMP | 0x25293B33DE6c7097A27b6c12888a15e0AbFf3A00 | Cross Chain Manager Proxy co
 ECCD | 0xd57Dc9E14Be808b514D30fC5e46a07Ba1e5Cf473 | Cross Chain Data contract hash
 ECCM | 0x89D15F45597816C90cbafd32D0Bb8Fc99bE0B76f | Cross Chain Manager contract hash
 SwapProxy| 0x34d4a23A1FC0C694f0D74DDAf9D8d564cfE2D430 | Asset Proxy contract hash
+BindProxy | 0x46829549E0a5Eccb04737eEaC6cE8826169BA1f1 | Curver bindproxy contract hash
 Pool-1  | 0xa6157DaBDda80F8c956962AB7739f17F54BAAB7F | USDT-BUSD-HUSD pool address in Curve
 Pool-1-LP | 0x23dF75A64Dc59d2884BE25021d7A424B18709A41 | LP token of pool-1
 USDT    | 0x061a87Aac7695b9cf9482043175fd3bE3374AB66 | USDT mapping asset in Curve
@@ -364,10 +372,16 @@ WBTC    | 0x7648bDF3B4f26623570bE4DD387Ed034F2E95aad | Eth WBTC mapping asset in
 BTCB    | 0x2367e9Cf3355EA714236e6719B91336D29D6D59D | Bsc BTC mapping asset in Curve
 HBTC    | 0x285F30fD447598178d3B8adBdc0839B0c72C26eb | Heco BTC mapping asset in Curve
 Pool-5  | 0x6C12415f6Ca74e5D1F091415858de7E188B0884C | BTC pool address in Curve
-Pool-5-LP | 0x81241b49e73e79d920c6ea71ABc84409DE766055 | LP token of pool-4
+Pool-5-LP | 0x81241b49e73e79d920c6ea71ABc84409DE766055 | LP token of pool-5
 ETH-USDC    | 0xAed3E54b7229d7b8f3970f0a03D98708716de96b | Eth USDC mapping asset in Curve
 BSC-USDC    | 0xE4444f57b4Bd843EC065BdaF67a2e9b8c1ee4f5b | Bsc USDC mapping asset in Curve
-MATIC-USDC    | 0xbc44977D9ad3CC55fd88fBe34616EBE8174f2c3f | Heco USDC mapping asset in Curve
+MATIC-USDC    | 0xbc44977D9ad3CC55fd88fBe34616EBE8174f2c3f | MATIC USDC mapping asset in Curve
+Pool-7  | 0x1EEcE3d9fD152b73728aba136BB6E1f3ebd2Afa2 | USDT pool address in Curve
+Pool-7-LP | 0xDB721696803539f30Bcb6FD2559c018a32BE9134 | LP token of pool-7
+ETH-USDT    | 0x061a87Aac7695b9cf9482043175fd3bE3374AB66 | Eth USDT mapping asset in Curve
+BSC-USDC    | 0x9AC8B67Febd3E53c8f08E5A481A9D94Ea51Fb07D | Bsc USDT mapping asset in Curve
+MATIC-USDC    | 0x77b81bd926f9E047ae976B674Af1922b5f34aDD7 | MATIC USDT mapping asset in Curve
+Arbitrum-USDC    | 0x72b70b41A59C9e849FF70de60CEbee4D49612A7F | Arbitrum USDT mapping asset in Curve
 
 
 
@@ -387,7 +401,8 @@ mBTM | 0xB46985584980c17860CE396667bc74d94Bad4eBF | mBTM mapping asset in OKEx
 SXC | 0x0a3c69b510eA47624eE4D4C5b630ae06cd33eB73 | SXC
 COOK | 0x7f1ae1C42f5f967c0E1ABa3ed7b6D62f88BE4275 | COOK
 COW | 0x05874E7665c249696c261F638D80C2C3c5C286DD | COW
-
+WIT | 0x3db637a11d28b75d66a0ea2e2ad454f760d2e8ce | WIT
+OOE | 0x40817e1ab07fc872b7af6a959c4b7a8febf6c4ab | OOE
 
 
 
@@ -408,6 +423,8 @@ OOE | 0x9d5565da88e596730522cbc5a918d2a89dbc16d9 | OOE
 ONTd |  0xD4814770065F634003A8d8D70B4743E0C3f334ad | ONTd
 ONG | 0x727e6cA466a7522D54F1f0b97a344f64e65d2767 | ONG
 CBC | 0x14e449473251F2D9D4eA5D26199F002C214b2475 | CBC
+WIT | 0xaacd1ba28e00a480ed7cb5284b7719c0bd694a94 | WIT
+TSX | 0xF11de26883EB2EBF9877a01703DDC1eB619094E6 | TSX
 
 ## Note 
 `B` means big-endian, we can search the contract transaction history in corresponding explorer.
@@ -428,6 +445,28 @@ ECCM | 0x1b02EEE12A7bF02922113a70d3D343De4b43f776 | Palette Cross Chain Manager 
 CCMP | 0x7622058504412D5183352A7d350653DfFe58b1DC | Cross Chain Manager Proxy contract hash 
 PLT Wrapper | 0x0A9C412633465fdeE4861CeE02987386100bEAe6 | lock entrance for auto cross chain tx with fee 
 
+## Zilliqa
+
+Type | Contract Hash | Desc
+---|---|---
+CCMP | 0xfeafd3bb477c2d29ed078256698c7d9c37abcf20 | Zilliqa Cross Chain Manager Proxy contract hash
+CCM | 0xac9f601679a285c3ff0d95239a1dc7a7983df32d | Zilliqa Cross Chain Manager contract hash
+Lock Proxy | 0xd73c6b871b4d0e130d64581993b745fc938a5be7 | Zilliqa Lock Proxy contract hash
+
+## Arbitrum
+
+Type | Contract Hash | Desc
+---|---|---
+CCMP | 0xABD7f7B89c5fD5D0AEf06165f8173b1b83d7D5c9 | Arbitrum Cross Chain Manager Proxy contract hash
+CCM | 0x7ceA671DABFBa880aF6723bDdd6B9f4caA15C87B | Arbitrum Cross Chain Manager contract hash
+ECCD | 0x11e2A718d46EBe97645b87F2363AFE1BF28c2672 | Arbitrum Cross Chain Data contract hash
+Lock Proxy | 0x2f7ac9436ba4B548f9582af91CA1Ef02cd2F1f03 | Arbitrum Lock Proxy contract hash
+Swapper | 0x7E418a9926c8D1cbd09CC93E8051cC3BbdfE3854 | Arbitrum Swapper contract hash
+USDT | 0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9 | Arbitrum USDT contract hash 
+Poly Wrapper | 0xCf018d59B4728d073bd961ABe6A8024A8F0A3cdB | lock entrance for auto cross chain tx with fee 
+Wrapper 2.0 | 0x0f8C16BA16E58525Eb2aDc231ff360cfa00bB527 | wrapper_v2 that take native asset as fee
+
+
 ## Router And ChainId
 Type | Router Number | ChainId
 :-:|:-:|:-:
@@ -439,11 +478,14 @@ Switcheo | 5 | 5
 BSC | 6 | 6
 Heco | 7 | 7
 Palette | 8 | 8
+Zilliqa | 17 | 18
 Curve | 10 | 10
 OKExChain | 12 | 12
 Neo N3 | 14 | 14
 Heimdall | 15 | 15
-Polygon | 17 | 17
+Polygon | 16 | 17
+Arbitrum | 0 | 19
+
 
 ## Relayers
 
