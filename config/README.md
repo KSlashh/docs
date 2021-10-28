@@ -37,7 +37,7 @@ Type | Contract Hash | Desc
 ---|---|---
 CCMP | 0x5a51e2ebf8d136926b9ca7b59b60464e7c44d2eb | Cross Chain Manager Proxy contract hash 
 ECCD | 0xcf2afe102057ba5c16f899271045a0a37fcb10f2 | Ethereum Cross Chain Data contract hash
-ECCM | 0xe020877e67CfAAFFC33a6E7eB9e85741bbb3eA79 | Ethereum Cross Chain Manager contract hash
+ECCM | 0x14413419452Aaf089762A0c5e95eD2A13bBC488C | Ethereum Cross Chain Manager contract hash
 Lock Proxy| 0x250e76987d838a75310c34bf422ea9f1AC4Cc906 | Ethereum Asset Proxy contract hash
 Poly Wrapper | 0x2aA63cd0b28FB4C31fA8e4E95Ec11815Be07b9Ac | lock entrance for auto cross chain tx with fee 
 Wrapper 2.0 | 0xd380450e9e373bDC389951C54616edb2EE653524 | wrapper_v2 that take native asset as fee
@@ -121,6 +121,7 @@ CFB| 0x5549fE6ED280e5A271A4c8c85277a5F07ec9bbDB| CFB
 EPK | 0xdaf88906ac1de12ba2b1d2f7bfc94e9638ac40c4 | EPK
 ISM| 0x5126efa050f6d3166110039c5ca48cc57b8e6ba2 | ISM
 eCell | 0x9b62ec1453cea5dde760aaf662048ca6eeb66e7f | eCell
+PLT | 0x0944d5848bd9f60a34ba92aea300d4286696eb76| PLT
 
 ## Ethereum: nrenBTC/nsBTC/nTUSD/nUSDC/nwBTC/nwETH/nDAI
 Type | Contract Hash | Desc
@@ -198,7 +199,7 @@ Type | Contract Hash | Desc
 ---|---|---
 CCMP | 0xABD7f7B89c5fD5D0AEf06165f8173b1b83d7D5c9 | Cross Chain Manager Proxy contract hash 
 ECCD | 0x11e2A718d46EBe97645b87F2363AFE1BF28c2672 | BSC Cross Chain Data contract hash
-ECCM | 0x00EeE7b864062c40F8096f948a2B0Db3c28aa6fE | BSC Cross Chain Manager contract hash
+ECCM | 0x1c9Ca8aBb5da65d94DaD2E8Fb3f45535480d5909 | BSC Cross Chain Manager contract hash
 Lock Proxy| 0x2f7ac9436ba4B548f9582af91CA1Ef02cd2F1f03 | BSC Asset Proxy contract hash
 Poly Wrapper | 0xE3D0FB6E3cB5DA61EB18b06D035052441009d1E6 | lock entrance for auto cross chain tx with fee 
 Wrapper 2.0 | 0x4b0CFdb5e1Ca898a225F9E14AfF9e4eF178a10d2 | wrapper_v2 that take native asset as fee
@@ -283,7 +284,7 @@ Type | Contract Hash | Desc
 ---|---|---
 CCMP | 0xABD7f7B89c5fD5D0AEf06165f8173b1b83d7D5c9 | Cross Chain Manager Proxy contract hash 
 ECCD | 0x11e2A718d46EBe97645b87F2363AFE1BF28c2672 | Heco Cross Chain Data contract hash
-ECCM | 0x59A2C3062D9F1097D5CD239FA1BAbE6cb64fB96C | Heco Cross Chain Manager contract hash
+ECCM | 0x7109c5F898C5667941B3D2A6451b4bFBeD2bdBbF | Heco Cross Chain Manager contract hash
 Lock Proxy| 0x020c15e7d08A8Ec7D35bCf3AC3CCbF0BBf2704e6 | Heco Asset Proxy contract hash
 Poly Wrapper | 0x4fE451186c0D69205ACc1fA00FD75fc6d71e47eE | lock entrance for auto cross chain tx with fee 
 Wrapper 2.0 | 0x1B0C55be400e2a7D924032B257Fbc75Bbfd256E7 | wrapper_v2 that take native asset as fee
@@ -391,7 +392,7 @@ Type | Contract Hash | Desc
 ---|---|---
 CCMP | 0x4739fe955BE4704BcB7d6a699823F5B29217Baf6 | Cross Chain Manager Proxy contract hash 
 ECCD | 0xdb3A0149f3155cC1B6890FE382d309dB4b322630 | OKEx Cross Chain Data contract hash
-ECCM | 0x3758fD8D5c29AD2620De837Da7531Bb4d1f64EDc | OKEx Cross Chain Manager contract hash
+ECCM | 0x6CE66Cf89A17B5C22e757cca01beAD901fC8C7f2 | OKEx Cross Chain Manager contract hash
 Lock Proxy| 0x9a3658864Aa2Ccc63FA61eAAD5e4f65fA490cA7D | OKEx Asset Proxy contract hash
 Poly Wrapper | 0x11e2A718d46EBe97645b87F2363AFE1BF28c2672 | lock entrance for auto cross chain tx with fee 
 Wrapper 2.0 | 0xbd4a08577476A521C41a21EF3f00b045b74175d5 | wrapper_v2 that take native asset as fee
@@ -411,7 +412,7 @@ Type | Contract Hash | Desc
 ---|---|---
 CCMP | 0x5366ea2b5b729ff3cef404c2408c8c60cc061b71 | Cross Chain Manager Proxy contract hash 
 ECCD | 0x7cea671dabfba880af6723bddd6b9f4caa15c87b | Polygon Cross Chain Data contract hash
-ECCM | 0x39Cd00c5d0fa3e880B86B6a76224a18128DE89E5 | Polygon Cross Chain Manager contract hash
+ECCM | 0xB16FED79a6Cb9270956f045F2E7989AFfb75d459 | Polygon Cross Chain Manager contract hash
 Lock Proxy| 0x28ff66a1b95d7cacf8eded2e658f768f44841212 | Polygon Asset Proxy contract hash
 Poly Wrapper | 0x4493fb5dc195900938CC23096C7EEdEfc434e283 | lock entrance for auto cross chain tx with fee 
 Wrapper 2.0 | 0xB88f13682F3C602aCD84B4b2eEB96A9DD75Afd89 | wrapper_v2 that take native asset as fee
@@ -465,6 +466,19 @@ Swapper | 0x7E418a9926c8D1cbd09CC93E8051cC3BbdfE3854 | Arbitrum Swapper contract
 USDT | 0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9 | Arbitrum USDT contract hash 
 Poly Wrapper | 0xCf018d59B4728d073bd961ABe6A8024A8F0A3cdB | lock entrance for auto cross chain tx with fee 
 Wrapper 2.0 | 0x0f8C16BA16E58525Eb2aDc231ff360cfa00bB527 | wrapper_v2 that take native asset as fee
+
+
+## xDAI
+
+Type | Contract Hash | Desc
+---|---|---
+CCMP | 0x28FF66a1B95d7CAcf8eDED2e658f768F44841212 | xDAI Cross Chain Manager Proxy contract hash
+CCM | 0x2f7ac9436ba4B548f9582af91CA1Ef02cd2F1f03 | xDAI Cross Chain Manager contract hash
+ECCD | 0x4D6934E2bb813f48DC0A7bf7Ead0365D9c894163 | xDAI Cross Chain Data contract hash
+Lock Proxy | 0x2f7ac9436ba4B548f9582af91CA1Ef02cd2F1f03 | xDAI Lock Proxy contract hash
+Swapper |  | xDAI Swapper contract hash
+Poly Wrapper |  | lock entrance for auto cross chain tx with fee 
+Wrapper 2.0 |  | wrapper_v2 that take native asset as fee
 
 
 ## Router And ChainId

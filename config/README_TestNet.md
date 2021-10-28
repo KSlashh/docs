@@ -16,7 +16,7 @@ This's cross chain asset contract info on <strong>TESTNET</strong>, it's used to
 | -------------- | ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
 | CCMP           | 0xb600c8a2e8852832B75DB9Da1A3A1c173eAb28d8 | Cross Chain Manager Proxy contract hash                                                                           |
 | ECCD           | 0xA38366d552672556CE82426Da5031E2Ae0598dcD | Ethereum Cross Chain Data contract hash                                                                           |
-| ECCM           | 0xeC923170324db31cd9cd43C87483D04a2C73F388 | Ethereum Cross Chain Manager contract hash                                                                        |
+| ECCM           | 0xf989E80AAd477cB6059f366C0170a498909C4a55 | Ethereum Cross Chain Manager contract hash                                                                        |
 | Lock Proxy     | 0xD8aE73e06552E270340b63A8bcAbf9277a1aac99 | The lock proxy bridge contract hash for asset not implementing the "lock" and "unlock" logic to do cross chain tx |
 | Wrapper        | 0xDc37471Af6a8aB7f45F444c5a3Ef4758281bE32C | Ethereum Wrapper contract hash                                                                                    |
 | PLT Asset      | 0x1AC77d322e3347B8de181304B7c118a7e89c6Bc1 | The palette asset hash                                                                                            |
@@ -183,7 +183,7 @@ This's cross chain asset contract info on <strong>TESTNET</strong>, it's used to
 | -------------- | ------------------------------------------ | ---------------------------------------- |
 | Wrapper        |                                            |                                          |
 | Nep17Proxy     | 0x4487494dac2f7eb68bdae009cacd6de88243e542 | 42e54382e86dcdca09e0da8bb67e2fac4d498744 | The lock proxy bridge contract hash for asset not implementing the "lock" and "unlock" logic to do cross chain tx |
-| CCMC           | 0x618d44dc3af16c6120dbf65402024f40a04f772a | 2a774fa0404f020254f6db20616cf13adc448d61 | Cross Chain Manager Contract   |
+| CCMC           | 0x618d44dc3af16c6120dbf65402024f40a04f772a | 2a774fa0404f020254f6db20616cf13adc448d61 | Cross Chain Manager Contract                                                                                      |
 | NFT Lock Proxy | 0x7acd03102216db84993710cafb924e48a2259e1a | 1a9e25a2484e92fbca10379984db16221003cd7a |
 | NFT cat1       | 0xd74d35311c2a20ba78cd12056d3017da5bd352a6 | a652d35bda17306d0512cd78ba202a1c31354dd7 |
 | NEO            | 0xef4073a0f2b305a38ec4050e4d3d28bc40ea63f5 | f563ea40bc283d4d0e05c48ea305b3f2a07340ef |
@@ -257,6 +257,38 @@ This's cross chain asset contract info on <strong>TESTNET</strong>, it's used to
 | Lock Proxy | 0x97f72bA888A26A0F98C67cf15d781dDBFE64B990 | The lock proxy bridge contract hash     |
 | Wrapper    | 0x27eb74B4Db37517F1dC6dE67364e19782624402F |                                         |
 
+## Xdai
+
+| Type       | Contract Hash                              | Desc                                    |
+| ---------- | ------------------------------------------ | --------------------------------------- |
+| CCMP       | 0x3E5ceC313CECaa37319e0F2C949656441103C429 | Cross Chain Manager Proxy contract hash |
+| ECCD       | 0xAefD220aE393144dcb5EFD6Ab55ABDf6a3d0444d | Cross Chain Data contract hash          |
+| ECCM       | 0xF87527a74215777391fE4AfD082FeeED3E5A0ca5 | Cross Chain Manager contract hash       |
+| Lock Proxy | 0x52B3048eeF2E53bAF430B0bA4752999F244d1709 | The lock proxy bridge contract hash     |
+| Wrapper    | 0xa7eDA65F94A2a334a0de42d479585b65D27b2249 |                                         |
+| NB         | 0xFe1c7C8193FA9491c8790dF7f24174D88146873D | Token                                   |
+
+## Optimistic
+
+| Type       | Contract Hash                              | Desc                                    |
+| ---------- | ------------------------------------------ | --------------------------------------- |
+| CCMP       | 0xC8042579D6b60E0e35161F228827E3Fa0F51d5B6 | Cross Chain Manager Proxy contract hash |
+| ECCD       | 0x10BCC4B6C2555fF48540571ebe5aBa6D32915250 | Cross Chain Data contract hash          |
+| ECCM       | 0xbA6F835ECAE18f5Fc5eBc074e5A0B94422a13126 | Cross Chain Manager contract hash       |
+| Lock Proxy | 0x509fB7A017e33f18101dDC0d28Ac06aEaf6Edb4B | The lock proxy bridge contract hash     |
+| Wrapper    | 0x032F9A78473F73A6E10B78CD165F547559125EF1 |                                         |
+| NB         | 0x82E9948acA92412b8094fE649C3f32bEfFFEDb7C | Token                                   |
+
+## Fantom
+
+| Type       | Contract Hash                              | Desc                                    |
+| ---------- | ------------------------------------------ | --------------------------------------- |
+| CCMP       | 0xc5757b5d22984E534004cC7Fb1D59eD14EC510a5 | Cross Chain Manager Proxy contract hash |
+| ECCD       | 0x709D63f3d1a46B89cE4F6a61C8fb16aB29fD26F8 | Cross Chain Data contract hash          |
+| ECCM       | 0xD9A3d265a1127051F620e700B5a461af4991EaAE | Cross Chain Manager contract hash       |
+| Lock Proxy | 0x4a76E52600C6285029c8f7c52183cf86282cA5b8 | The lock proxy bridge contract hash     |
+| Wrapper    | 0xFAddf0cfb08F92779560db57BE6b2C7303aaD266 |                                         |
+| NB         | 0x82E9948acA92412b8094fE649C3f32bEfFFEDb7C | Token                                   |
 
 ## Router And ChainId
 |   Type   | Router Number |   ChainId    |
@@ -276,4 +308,6 @@ This's cross chain asset contract info on <strong>TESTNET</strong>, it's used to
 |   Bor    |      16       |     202      |
 | NEO(N3)  |      88       |      88      |
 | Arbitrum |       0       |     205      |
+|   Xdai   |       0       |     206      |
+|Optimistic|       0       |     207      |
 
